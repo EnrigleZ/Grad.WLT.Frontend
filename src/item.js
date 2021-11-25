@@ -1,9 +1,9 @@
 import React from 'react';
 
 const ItemComp = (props) => {
-    const { id } = props;
+    const { id, highlight } = props;
 
-    return (<div key={id}>
+    return (<div className={highlight ? 'highlight' : ''} key={id}>
         {id}
     </div>)
 }

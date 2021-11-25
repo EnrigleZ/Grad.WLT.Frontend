@@ -8,7 +8,7 @@ const ItemAreaComp = (props) => {
     return (
         <Card title={title} className="item-card">
           <div className="item-area">
-            { items.map(id => (<ItemComp key={id} id={id} />)) }
+            { items.map(item => (<ItemComp key={item.id} id={item.id} highlight={item.highlight} />)) }
           </div>
         </Card>
     )
