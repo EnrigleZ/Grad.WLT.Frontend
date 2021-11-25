@@ -15,6 +15,15 @@
   overflow-y: scroll;
 }
 
-.highlight {
-  background-color: yellow;
+.item.highlight {
+  background-color: #ffffb8;
+  border: 2px solid #fff566;
+}
+
+.item {
+  padding: 10px;
+  font-size: 20px;
+  margin: 5px 2px;
+  background-color: #e6fffb;
+  border: #b5f5ec;
 }
